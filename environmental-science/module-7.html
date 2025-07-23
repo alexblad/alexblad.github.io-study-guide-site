@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Science: Module 7</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import for Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            color: #334155; /* Dark slate text */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0; /* Light gray track */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #94a3b8; /* Medium gray thumb */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b; /* Darker gray on hover */
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8 lg:p-10">
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl p-6 sm:p-8 md:p-10 lg:p-12">
+        <header class="text-center mb-10 pb-4 border-b border-gray-200">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-blue-700 mb-2">Environmental Science Study Guide</h1>
+            <p class="text-lg sm:text-xl text-gray-600">Module 7: Energy & Electricity</p>
+        </header>
+
+        <!-- Navigation for subjects and sections -->
+        <nav class="mb-8 flex flex-wrap justify-center gap-4 text-center text-sm sm:text-base">
+            <a href="../index.html" class="px-4 py-2 rounded-lg font-semibold transition-all duration-300 ease-in-out bg-gray-200 text-gray-800 hover:bg-gray-300">
+                Home
+            </a>
+            <a href="index.html" class="px-4 py-2 rounded-lg font-semibold transition-all duration-300 ease-in-out bg-blue-600 text-white hover:bg-blue-700">
+                Environmental Science Home
+            </a>
+            <a href="../physics/index.html" class="px-4 py-2 rounded-lg font-semibold transition-all duration-300 ease-in-out bg-gray-200 text-gray-800 hover:bg-gray-300">
+                Physics Home
+            </a>
+            <!-- You can add more specific section links here as you create them -->
+        </nav>
+
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-blue-600 mb-4 pb-2 border-b-2 border-blue-300">Energy</h2>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Is energy created or destroyed? What happens to energy on Earth?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Is energy created or destroyed?:** According to the **First Law of Thermodynamics (Law of Conservation of Energy)**, energy cannot be created or destroyed. It can only be transformed from one form to another.</li>
+                    <li>**What happens to energy on Earth?:** Energy on Earth primarily originates from the Sun (solar radiation). This energy is:
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Absorbed:** By Earth's surface (land, oceans), atmosphere, and living organisms (photosynthesis).</li>
+                            <li>**Transformed:** Converted into various forms (e.g., light to chemical energy in plants, chemical to kinetic in animals, chemical to heat in combustion).</li>
+                            <li>**Flows:** Moves through ecosystems (e.g., food chains).</li>
+                            <li>**Dissipated as Heat:** A significant portion of energy is ultimately transformed into heat, which is then radiated back into space. This is an inevitable consequence of energy transformations (Second Law of Thermodynamics - increasing entropy).</li>
+                        </ul>
+                        <p class="text-gray-700 mt-1">So, while energy is not destroyed, it is constantly being transformed and eventually lost from the Earth system as heat radiating to space.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Define kinetic and potential energy, and be able to categorize forms of energy as one or the other.</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Kinetic Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Definition:** The energy of **motion**. It is the energy an object possesses due to its movement.</li>
+                            <li>**Examples:**
+                                <ul class="list-disc list-inside ml-4">
+                                    <li>A moving car.</li>
+                                    <li>Water flowing in a river.</li>
+                                    <li>Wind blowing.</li>
+                                    <li>Heat (random motion of molecules).</li>
+                                    <li>Light (photons in motion).</li>
+                                    <li>Sound (vibrations).</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Potential Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Definition:** Stored energy due to an object's **position or state**. It has the potential to do work.</li>
+                            <li>**Examples:**
+                                <ul class="list-disc list-inside ml-4">
+                                    <li>A rock at the top of a hill (gravitational potential energy).</li>
+                                    <li>Water behind a dam.</li>
+                                    <li>A stretched spring.</li>
+                                    <li>Chemical bonds in food or fossil fuels (chemical potential energy).</li>
+                                    <li>A charged battery (electrical potential energy).</li>
+                                    <li>Nuclear energy (stored in atomic nuclei).</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Differentiate between renewable and nonrenewable energy sources. How did fossil fuels form? Why are they nonrenewable? What other energy source is nonrenewable?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Renewable Energy Sources:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Definition:** Energy sources that are naturally replenished on a human timescale. Their supply is virtually inexhaustible or can be regenerated relatively quickly.</li>
+                            <li>**Examples:** Solar, wind, hydropower, geothermal, biomass (when sustainably managed).</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Nonrenewable Energy Sources:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Definition:** Energy sources that exist in finite quantities and are consumed much faster than they are naturally formed or replenished. Once depleted, they are essentially gone on a human timescale.</li>
+                            <li>**Examples:** Fossil fuels (coal, oil, natural gas), nuclear energy (from uranium).</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**How did fossil fuels form?:** Fossil fuels formed from the remains of ancient plants and animals that were buried under layers of sediment and rock over millions of years. Subjected to intense heat and pressure deep within the Earth's crust, these organic materials slowly transformed into energy-rich hydrocarbons.
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Coal:** From terrestrial plant matter in ancient swamps.</li>
+                            <li>**Oil and Natural Gas:** From marine microorganisms in ancient oceans.</li>
+                        </ul>
+                    </li>
+                    <li>**Why are they nonrenewable?:** They are nonrenewable because the geological processes that form them take **millions of years**, vastly exceeding the rate at which humans are extracting and consuming them. We are depleting a finite resource.</li>
+                    <li>**What other energy source is nonrenewable?:** **Nuclear energy**, which relies on uranium as its fuel, is also a nonrenewable energy source. While uranium is relatively abundant in the Earth's crust, it is a finite resource that is not replenished on a human timescale.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-blue-600 mb-4 pb-2 border-b-2 border-blue-300">Electricity</h2>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">How is electricity produced in thermoelectric power plants? Are there other ways to produce electricity?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**How electricity is produced in thermoelectric power plants:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>Thermoelectric power plants (which include those powered by coal, natural gas, oil, nuclear, and some biomass) primarily generate electricity by **heating water to produce high-pressure steam**.</li>
+                            <li>**Steps:**
+                                <ol class="list-decimal list-inside ml-4">
+                                    <li>**Fuel Combustion/Nuclear Fission:** A fuel (e.g., coal, natural gas, uranium) is burned or undergoes nuclear fission to produce heat.</li>
+                                    <li>**Boiler:** This heat is used to boil water, creating high-pressure steam.</li>
+                                    <li>**Turbine:** The high-pressure steam is directed to spin a large turbine.</li>
+                                    <li>**Generator:** The spinning turbine is connected to a generator, which converts the rotational (kinetic) energy into electrical energy through electromagnetic induction.</li>
+                                    <li>**Condenser & Cooling:** After passing through the turbine, the steam is cooled (often using water from a nearby source) and condensed back into liquid water, which is then returned to the boiler to repeat the cycle.</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Are there other ways to produce electricity?:** Yes, there are many other ways to produce electricity that do not rely on generating steam:
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Hydroelectric Power:** Moving water (from dams) spins turbines directly.</li>
+                            <li>**Wind Power:** Wind spins turbine blades directly.</li>
+                            <li>**Solar Photovoltaics (PV):** Sunlight is directly converted into electricity using semiconductor materials (solar panels), without moving parts or heat engines.</li>
+                            <li>**Geothermal Power (some types):** Hot water/steam from Earth's interior can directly spin turbines or be used in binary cycle plants.</li>
+                            <li>**Fuel Cells:** Convert chemical energy directly into electrical energy through an electrochemical reaction.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">What does it mean that electricity is a secondary energy source?</h3>
+                <p class="text-gray-700">Electricity is considered a **secondary energy source** because it is not found naturally in a usable form that can be directly harvested. Instead, it must be **generated or converted from a primary energy source**. Primary energy sources are those found in nature (e.g., coal, oil, natural gas, sunlight, wind, uranium). We transform these primary sources into electricity to make them usable for a wide range of applications.</p>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Which source of energy is most commonly used to generate electricity? Is it renewable or nonrenewable?</h3>
+                <p class="text-gray-700">Globally, the source of energy most commonly used to generate electricity is **coal**. Coal is a **nonrenewable** fossil fuel.</p>
+                <p class="text-gray-700 mt-2">While natural gas has rapidly increased its share, and renewables are growing, coal still holds the largest share of global electricity generation.</p>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">How has the use of natural gas to generate electricity changed in the last 20 years? How does the trend for natural gas usage compare to nuclear (over the last 20 years)?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Natural Gas Use for Electricity (Last 20 Years):** The use of natural gas to generate electricity has **increased drastically and rapidly** over the last 20 years, particularly in countries like the United States. This surge is largely due to the increased availability of natural gas from hydraulic fracturing ("fracking") and its relatively lower cost compared to coal, as well as its lower carbon emissions compared to coal. It has often replaced coal as the dominant fuel for electricity generation in many developed nations.</li>
+                    <li>**Natural Gas vs. Nuclear Trend (Last 20 Years):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Natural Gas:** Has seen a **steep increase** in its share of electricity generation.</li>
+                            <li>**Nuclear:** Has remained relatively **stable or slightly declined** in its share of electricity generation in many countries (e.g., U.S., Western Europe) due to factors like high construction costs, safety concerns, and public opposition, despite its low operational carbon emissions. Some countries (e.g., China, India) are expanding nuclear capacity, but globally, its growth has been much slower than natural gas.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">The use of oil to generate electricity has decreased significantly over the last 50 years. What other ways do we use oil? (hint, we will cover this very soon - make a hypothesis).</h3>
+                <p class="text-gray-700">The use of oil (petroleum) to generate electricity has indeed decreased significantly, largely due to its higher cost and environmental concerns compared to coal and natural gas.</p>
+                <p class="text-gray-700 font-semibold mt-2">Other primary ways we use oil (Hypothesis based on common knowledge):</p>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Transportation Fuel:** This is the largest use of oil globally. It is refined into gasoline for cars, diesel for trucks and heavy machinery, and jet fuel for airplanes.</li>
+                    <li>**Industrial Feedstock:** Used as a raw material (feedstock) in the petrochemical industry to produce plastics, synthetic fibers, fertilizers, and a vast array of other chemicals and materials.</li>
+                    <li>**Heating:** Used for heating homes and commercial buildings (heating oil).</li>
+                    <li>**Lubricants:** Used to make lubricants for machinery.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">How has the use of renewables changed globally over 50 years? Over 20 years? Did you expect that it had increased more or less in recent years?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Renewables Use (Last 50 Years):** The use of renewables globally has seen a **significant increase**, particularly in the last two decades. While traditional renewables like hydropower have been used for a long time, the growth of "new renewables" (solar, wind, modern biofuels) was relatively slow for much of the late 20th century.</li>
+                    <li>**Renewables Use (Last 20 Years):** Over the last 20 years, the use of renewables has experienced **rapid and accelerating growth**. This is due to technological advancements, falling costs (especially for solar and wind), supportive government policies, and growing concerns about climate change and energy security. Solar and wind power, in particular, have seen exponential growth.</li>
+                    <li>**Did you expect it to increase more or less in recent years?:** Given the urgency of climate change and the widespread discussion about transitioning to clean energy, many might **expect it to have increased even more rapidly** than it has, or to have already largely replaced fossil fuels. However, while growth has been impressive, renewables still make up a smaller portion of total global energy consumption compared to fossil fuels, and the overall energy demand continues to rise. So, while the *rate* of increase is high, the *absolute contribution* is still catching up.</li>
+                </ul>
+            </div>
+
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">Energy and Social Justice</h3>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Is more or less energy being consumed globally as population increases? Are more or less people able to access reliable energy as population grows? What energy sources are being used to meet increasing demand?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Energy Consumption & Population:** **More energy is being consumed globally** as the population increases. This is a direct correlation, as more people require more energy for domestic use, food production, transportation, and economic activities.</li>
+                    <li>**Access to Reliable Energy & Population Growth:** **More people are gaining access to reliable energy** as the global population grows, but significant disparities remain. While hundreds of millions have gained access to electricity in recent decades, there are still hundreds of millions (primarily in Sub-Saharan Africa and parts of Asia) who lack access to basic electricity and clean cooking fuels. The goal of universal energy access is still far from met.</li>
+                    <li>**Energy Sources Meeting Increasing Demand:** The increasing global energy demand is being met by a mix of sources:
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Fossil Fuels:** Still the dominant source, with natural gas seeing significant growth, and coal remaining high, especially in rapidly developing economies.</li>
+                            <li>**Renewables:** Experiencing the fastest growth rate, particularly solar and wind power, but also hydropower and some biomass. They are contributing an increasing share to new energy demand.</li>
+                            <li>**Nuclear Energy:** Stable or slowly growing in some regions.</li>
+                        </ul>
+                        <p class="text-gray-700 mt-1">The challenge is to meet this increasing demand primarily with low-carbon and renewable sources to mitigate climate change.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-blue-600 mb-4 pb-2 border-b-2 border-blue-300">Energy Consumption</h2>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">List the different end use sectors (for energy) and describe each. What are the primary sources of energy that power each end-use sector?</h3>
+                <p class="text-gray-700 font-semibold mb-2">Different End-Use Sectors for Energy:</p>
+                <ol class="list-decimal list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Industrial Sector:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Description:** Energy consumed by manufacturing, mining, agriculture, and construction. Used for process heating, motor drives, and facility heating/cooling.</li>
+                            <li>**Primary Sources:** Natural gas, electricity (often generated from fossil fuels or nuclear), coal, petroleum products, and some biomass.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Transportation Sector:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Description:** Energy used for moving people and goods by road, rail, air, and water.</li>
+                            <li>**Primary Sources:** Almost exclusively **petroleum products** (gasoline, diesel, jet fuel). Some biofuels and electricity (for electric vehicles/trains).</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Residential Sector:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Description:** Energy consumed in homes for heating, cooling, lighting, appliances, and electronics.</li>
+                            <li>**Primary Sources:** Electricity (from the grid), natural gas, heating oil, propane, and some biomass (wood).</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Commercial Sector:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Description:** Energy consumed by businesses, offices, stores, restaurants, hotels, hospitals, and other institutional buildings.</li>
+                            <li>**Primary Sources:** Electricity (from the grid), natural gas, and some petroleum products.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">How has global energy consumption changed since 1800? What was the original, primary source of energy in 1800? Which source became popular from 1850 to 1900?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Global Energy Consumption Since 1800:** Global energy consumption has increased **exponentially and dramatically** since 1800. This increase is directly linked to the Industrial Revolution, population growth, and economic development. Before 1800, energy consumption was relatively low and stable.</li>
+                    <li>**Original, Primary Source in 1800:** The original, primary source of energy in 1800 was predominantly **biomass** (wood, charcoal, animal waste) for heating, cooking, and some early industrial processes, along with human and animal labor, and some hydropower/wind power.</li>
+                    <li>**Source Popular from 1850 to 1900:** **Coal** became increasingly popular and the dominant energy source from 1850 to 1900. It fueled the steam engines, factories, and railways of the Industrial Revolution, replacing biomass as the primary energy source.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">How has the net amount of energy consumed in the form of coal, oil and natural gas changed from 2000 to 2019, as renewables have gained more footing in our global energy profile?</h3>
+                <p class="text-gray-700">From 2000 to 2019, even as renewables gained more footing, the **net amount of energy consumed in the form of coal, oil, and natural gas has generally increased globally** (though with varying trends for each fossil fuel).</p>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Overall Fossil Fuels:** Total global fossil fuel consumption continued to rise, driven by increasing energy demand, especially from rapidly developing economies.</li>
+                    <li>**Natural Gas:** Saw a significant increase in consumption, often replacing coal in electricity generation due to its lower carbon emissions and increased availability.</li>
+                    <li>**Oil:** Consumption generally increased, primarily driven by growth in the transportation sector.</li>
+                    <li>**Coal:** While its share in some developed countries (e.g., U.S., EU) decreased, global coal consumption, particularly in China and India, continued to rise for much of this period, only showing signs of plateauing or slight decline towards the end of the period.</li>
+                </ul>
+                <p class="text-gray-700 mt-2">The growth in renewables has been substantial in percentage terms, but the overall increase in global energy demand has been so large that it has absorbed much of the new renewable capacity, meaning fossil fuel consumption has largely continued to grow in absolute terms, rather than being significantly displaced globally in this period.</p>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Which renewable energy source provides the most energy globally? Reminder, renewables include solar, wind, modern biofuels and hydropower. How has the increase in renewable energy compared with the use of fossil fuels over the same period of time?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Most Energy from Renewables Globally:** **Hydropower** (hydroelectricity) currently provides the most energy globally among renewable sources. It has been a major source of electricity for decades.</li>
+                    <li>**Increase in Renewable Energy vs. Fossil Fuels (Same Period):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Renewable Energy:** Has seen the **fastest percentage growth rate** over the past decade or two, particularly solar and wind.</li>
+                            <li>**Fossil Fuels:** Despite the rapid growth of renewables, the **absolute increase in fossil fuel consumption** (especially natural gas and oil) has often been larger than the absolute increase in renewable energy over the same period. This means that while renewables are growing quickly, they are not yet displacing fossil fuels fast enough to reduce overall fossil fuel consumption globally, as total energy demand continues to rise. Fossil fuels still account for the vast majority of global energy supply.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">For the countries of United States, China, India, Brazil, European Union, Indonesia and Nigeria, respond to these questions:</h3>
+                <p class="text-gray-700 font-semibold mb-2">*(Note: To answer these questions accurately, one would typically refer to specific data visualizations or reports, such as those from the BP Statistical Review of World Energy or the EIA. The answers below reflect general trends observed in such data.)*</p>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Which countries/regions have experienced the fastest increases in energy consumption since 2000 (steepest slopes)?:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**China** has experienced by far the fastest and most drastic increase in energy consumption since 2000, becoming the world's largest energy consumer.</li>
+                            <li>**India** has also shown a very steep and rapid increase in energy consumption.</li>
+                            <li>**Indonesia** and **Nigeria** (representative of rapidly developing economies in Southeast Asia and Africa) have also shown significant increases, though from a lower base.</li>
+                        </ul>
+                    </li>
+                    <li>**Which countries/regions have seen decreases in energy consumption since 2000?:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>The **European Union** has generally seen a decrease or stabilization in overall energy consumption since 2000, driven by energy efficiency measures, economic restructuring, and a shift towards renewables.</li>
+                            <li>The **United States** has seen periods of decrease or stabilization, particularly after the 2008 financial crisis and due to increased energy efficiency, though overall consumption remains high.</li>
+                        </ul>
+                    </li>
+                    <li>**Which country/region has the least energy consumption?:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>Among the listed countries, **Nigeria** (and generally low-income countries) would have the least absolute energy consumption.</li>
+                        </ul>
+                    </li>
+                    <li>**Is energy consumption per capita (per person) higher in the U.S., the EU, China or India? To calculate per capita consumption, divide energy consumption by population.**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>Energy consumption per capita is significantly higher in the **U.S.** and the **EU** compared to China and India.</li>
+                            <li>**U.S.:** Typically has one of the highest per capita energy consumption rates globally.</li>
+                            <li>**EU:** High, but generally lower than the U.S. due to different lifestyles and policies.</li>
+                            <li>**China:** While its total energy consumption is the highest, its per capita consumption is lower than the U.S. and EU, but it has been rapidly increasing.</li>
+                            <li>**India:** Has much lower per capita energy consumption than the other listed regions, although its total consumption is rising rapidly due to its large population.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-blue-600 mb-4 pb-2 border-b-2 border-blue-300">Nonrenewable Energy</h2>
+
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">Fossil Fuels & Consumption</h3>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Detail how fossil fuel consumption has changed over time globally, especially in the U.S., China and India (focusing on recent years). For the most part, the consumption of fossil fuels in the United States has been relatively stable over the last 30 years (and even decreasing at times) while much of the world shows steady to significant increases. Why do you think this is?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Global Fossil Fuel Consumption (Recent Years):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>Globally, fossil fuel consumption has continued to **increase** in absolute terms, despite the growth of renewables. This is largely driven by increasing energy demand from developing economies.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Fossil Fuel Consumption in U.S., China, India (Recent Years):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**United States:** Fossil fuel consumption has been relatively **stable or even decreasing** at times over the last 30 years.</li>
+                            <li>**China:** Has seen a **massive and rapid increase** in fossil fuel consumption, becoming the world's largest consumer.</li>
+                            <li>**India:** Has also experienced a **significant and steady increase** in fossil fuel consumption.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Why U.S. Consumption is Stable/Decreasing while Global is Increasing:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Energy Efficiency:** The U.S. has implemented more energy-efficient technologies and practices in buildings, vehicles, and industry.</li>
+                            <li>**Shift to Natural Gas:** A significant shift from coal to natural gas for electricity generation has occurred, which, while still a fossil fuel, emits less $CO_2$ than coal.</li>
+                            <li>**Economic Restructuring:** A shift away from heavy manufacturing towards a more service-based economy.</li>
+                            <li>**Growth of Renewables:** While not fully displacing fossil fuels, the growth of renewables in the U.S. has helped to meet new demand and sometimes replace fossil fuel generation.</li>
+                            <li>**Mature Economy:** The U.S. is a mature economy with slower population growth compared to developing nations.</li>
+                            <li>**Developing Economies' Growth:** China and India (and other developing nations) are undergoing rapid industrialization, urbanization, and population growth, driving a massive increase in their energy demand, which is largely met by fossil fuels. They are building out infrastructure and expanding access to energy for large populations.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">How was fossil fuel consumption impacted by the Covid-19 pandemic?</h3>
+                <p class="text-gray-700">The Covid-19 pandemic in 2020 led to a **significant, but temporary, decrease** in global fossil fuel consumption. This impact was primarily due to:</p>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Lockdowns and Travel Restrictions:** Reduced transportation (less driving, flying, shipping) led to a sharp drop in demand for oil (gasoline, jet fuel).</li>
+                    <li>**Economic Slowdown:** Industrial activity decreased, leading to lower demand for coal and natural gas in some sectors.</li>
+                </ul>
+                <p class="text-gray-700 mt-2">However, as economies reopened and activities resumed, fossil fuel consumption largely **rebounded** in 2021 and subsequent years, often returning to or exceeding pre-pandemic levels, demonstrating the continued reliance on these energy sources.</p>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Discuss which countries are the largest consumers of fossil fuels overall and per capita.</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Largest Consumers of Fossil Fuels (Overall/Absolute):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**China:** Currently the largest absolute consumer of fossil fuels globally, driven by its massive industrial base, large population, and economic growth.</li>
+                            <li>**United States:** The second largest absolute consumer.</li>
+                            <li>**India:** Rapidly increasing and is the third largest.</li>
+                            <li>**European Union:** As a bloc, also a major consumer.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Largest Consumers of Fossil Fuels (Per Capita):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**United States:** Consistently one of the highest per capita fossil fuel consumers globally.</li>
+                            <li>**Canada, Australia, and some Middle Eastern countries** (due to oil/gas production and high energy use) also rank very high in per capita consumption.</li>
+                            <li>While China and India consume vast amounts of fossil fuels overall, their per capita consumption is significantly lower than that of the U.S. and other highly developed nations, though it is increasing.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Explain what we use fossil fuels FOR.</h3>
+                <p class="text-gray-700">We use fossil fuels for a wide array of purposes that underpin modern society:</p>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Electricity Generation:** Burning coal, natural gas, and oil (historically more so) in power plants to produce electricity for homes, businesses, and industry.</li>
+                    <li>**Transportation:** Refining petroleum into gasoline for cars, diesel for trucks and ships, and jet fuel for airplanes. This is the largest use of oil.</li>
+                    <li>**Industrial Processes:** Providing heat and power for manufacturing (e.g., steel, cement, chemicals), and as a feedstock (raw material) for producing plastics, fertilizers, pharmaceuticals, and countless other petrochemical products.</li>
+                    <li>**Heating and Cooling:** Burning natural gas or heating oil for residential and commercial heating, and to power air conditioning systems.</li>
+                    <li>**Cooking:** Natural gas is widely used for cooking in homes and restaurants.</li>
+                    <li>**Agriculture:** Used to power farm machinery, produce fertilizers (from natural gas), and transport food.</li>
+                </ul>
+            </div>
+
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">Nuclear Energy</h3>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">How is electricity generated by the nuclear fission process? List the steps.</h3>
+                <p class="text-gray-700">Electricity is generated by the nuclear fission process in a nuclear power plant through the following steps:</p>
+                <ol class="list-decimal list-inside ml-4 text-gray-700">
+                    <li>**Nuclear Fission:** In the reactor core, uranium-235 (or plutonium) atoms are split when struck by a neutron. This process, called nuclear fission, releases a tremendous amount of heat energy and more neutrons.</li>
+                    <li>**Chain Reaction:** The released neutrons strike other uranium atoms, causing a controlled chain reaction that continuously generates heat. Control rods (made of materials like cadmium or boron) are inserted or withdrawn from the reactor core to absorb neutrons and regulate the rate of the chain reaction.</li>
+                    <li>**Heat Transfer (Boiler/Heat Exchanger):** The heat generated by fission is used to heat water, typically in a closed loop, producing high-pressure steam. In some designs, this steam directly drives the turbine; in others, it heats a secondary loop of water to create steam (to prevent radioactive steam from reaching the turbine).</li>
+                    <li>**Turbine:** The high-pressure steam is directed to spin a large turbine.</li>
+                    <li>**Generator:** The spinning turbine is connected to a generator, which converts the mechanical (kinetic) energy of the spinning turbine into electrical energy.</li>
+                    <li>**Condenser & Cooling:** After passing through the turbine, the steam is cooled (condensed) back into liquid water, often using cooling water from a nearby source (river, lake, ocean) or a cooling tower, and then returned to the reactor to be heated again.</li>
+                </ol>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Is nuclear energy renewable or nonrenewable? Why? What does it mean that nuclear is an alternative energy source? Does it emit greenhouse gases?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**Renewable or Nonrenewable?:** Nuclear energy is considered a **nonrenewable** energy source.
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Why:** Because its fuel, uranium, is a finite resource mined from the Earth's crust. While there are substantial reserves, they are not replenished on a human timescale.</li>
+                        </ul>
+                    </li>
+                    <li>**Alternative Energy Source:** Nuclear energy is often referred to as an **alternative energy source** because it is an alternative to fossil fuels. It is a non-fossil fuel energy source that can generate large amounts of electricity without directly burning carbon-based fuels.</li>
+                    <li>**Does it emit greenhouse gases?:** During its operation, nuclear power plants **do not emit greenhouse gases** (like $CO_2$, methane, $N_2O$) from the fission process. However, greenhouse gas emissions are associated with the entire nuclear fuel cycle, including uranium mining, processing, plant construction, and waste disposal, but these emissions are significantly lower per unit of electricity generated compared to fossil fuels.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Describe the advantages of nuclear energy. How many lives has it saved by preventing air pollution from fossil fuel burning facilities? How does it rank in deaths per amount of energy produced?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Advantages of Nuclear Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Low Carbon Emissions (during operation):** Does not produce greenhouse gases during electricity generation, making it a crucial tool for climate change mitigation.</li>
+                            <li>**High Power Output:** Nuclear power plants can generate a large amount of electricity from a small amount of fuel, operating continuously (high capacity factor).</li>
+                            <li>**Reliable & Baseload Power:** Provides a stable, consistent supply of electricity, unlike intermittent renewables (solar, wind).</li>
+                            <li>**Small Land Footprint:** Requires relatively little land area compared to many renewable energy facilities.</li>
+                            <li>**Reduced Air Pollution:** Avoids the air pollutants (particulate matter, $SO_2$, $NO_x$) associated with fossil fuel combustion, improving air quality and public health.</li>
+                            <li>**Energy Security:** Reduces reliance on imported fossil fuels.</li>
+                        </ul>
+                    </li>
+                    <li>**Lives Saved by Preventing Air Pollution:** Studies (e.g., by NASA's James Hansen) have estimated that nuclear power has saved **millions of lives** (e.g., 1.8 million lives between 1971-2009, and potentially more since) by displacing fossil fuel electricity generation, thereby preventing deaths from air pollution.</li>
+                    <li>**Deaths per Amount of Energy Produced:** Nuclear energy ranks as one of the **safest major energy sources** in terms of deaths per amount of energy produced. It has a significantly lower death rate (including accidents and pollution-related deaths) than coal, oil, natural gas, and even some renewables like hydropower (due to dam failures).</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Where is the waste from nuclear energy stored, and how does this compare with waste from fossil fuel combustion processes?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Where Nuclear Waste is Stored:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Spent Nuclear Fuel:** The highly radioactive waste (spent fuel rods) from nuclear power plants is initially stored on-site at the power plants, typically in **spent fuel pools** (large water-filled tanks that cool the fuel and shield radiation) or in **dry cask storage** (massive concrete and steel containers).</li>
+                            <li>**Long-Term Disposal:** There is currently no permanent, deep geological repository for high-level nuclear waste in operation in the U.S. (Yucca Mountain was proposed but halted). Globally, a few countries are developing or operating deep geological repositories (e.g., Finland, Sweden) which aim to safely contain the waste for tens of thousands to hundreds of thousands of years.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Comparison with Waste from Fossil Fuel Combustion Processes:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Volume:** Nuclear waste is very **small in volume** but highly radioactive. The amount of high-level waste produced by a nuclear plant is tiny compared to the waste from a fossil fuel plant generating the same amount of electricity.</li>
+                            <li>**Toxicity/Hazard:** Nuclear waste is highly radioactive and remains hazardous for extremely long periods, requiring secure, long-term containment.</li>
+                            <li>**Fossil Fuel Waste:** Fossil fuel combustion produces vast quantities of waste, primarily:
+                                <ul class="list-disc list-inside ml-4">
+                                    <li>**Air Pollutants:** Greenhouse gases ($CO_2$, methane), particulate matter, $SO_2$, $NO_x$, heavy metals (e.g., mercury, lead), which are released directly into the atmosphere.</li>
+                                    <li>**Ash:** Coal combustion produces massive amounts of solid ash (fly ash and bottom ash), which can contain heavy metals and radioactive elements. This ash often requires disposal in landfills or ash ponds, which can pose risks of leaching into water.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p class="text-gray-700 mt-1">The key difference is that nuclear waste is highly concentrated and contained, making its management a challenge of long-term storage security. Fossil fuel waste is largely dispersed into the atmosphere or generated in massive volumes of solid waste, posing different, but often larger, environmental and health challenges.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">For how long is spent nuclear waste still radioactive? Does it have any dangerous uses?</h3>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li>**How long is spent nuclear waste still radioactive?:** Spent nuclear waste remains radioactive for an extremely long time. Its radioactivity decays over tens of thousands to **hundreds of thousands of years**, depending on the specific isotopes present. Some radioactive isotopes have half-lives of hundreds of thousands to millions of years, meaning they will remain hazardous for geological timescales.</li>
+                    <li>**Does it have any dangerous uses?:** Yes, spent nuclear waste contains fissile materials (like plutonium) that could potentially be reprocessed and used to create **nuclear weapons**. This is a major proliferation concern and why the security and international oversight of nuclear materials are extremely strict.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-blue-600 mb-4 pb-2 border-b-2 border-blue-300">Renewable Energy (from the Virtual Tour)</h2>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">List and describe the different sources of renewable energy. How does each work? Which ones use a turbogenerator to initiate the flow of electricity? Are any of these energy sources a good replacement for portable fuels for airplanes and other vehicles?</h3>
+                <p class="text-gray-700 font-semibold mb-2">Different Sources of Renewable Energy:</p>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Solar Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**How it works:**
+                                <ul class="list-disc list-inside ml-4">
+                                    <li>**Photovoltaic (PV) Cells:** Convert sunlight directly into electricity using semiconductor materials (no moving parts, no heat engine).</li>
+                                    <li>**Concentrated Solar Power (CSP):** Uses mirrors to focus sunlight to heat a fluid, which then creates steam to drive a turbogenerator.</li>
+                                </ul>
+                            </li>
+                            <li>**Turbogenerator used?:** Only in **Concentrated Solar Power (CSP)** plants. Not in PV.</li>
+                            <li>**Replacement for Portable Fuels?:** Not directly. Solar electricity can charge electric vehicles, but direct solar fuel for airplanes is not currently feasible. Biofuels (derived from biomass) are a potential liquid fuel replacement.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Wind Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**How it works:** Wind turbines capture the kinetic energy of wind, causing their blades to rotate. This rotational energy is then converted into electricity by a generator.</li>
+                            <li>**Turbogenerator used?:** Yes, the spinning blades are connected to a generator (though sometimes the term "turbogenerator" is more associated with steam turbines, the principle of converting mechanical rotation to electricity is the same).</li>
+                            <li>**Replacement for Portable Fuels?:** Not directly. Wind electricity can power electric vehicles. Hydrogen produced via electrolysis using wind power could be a future fuel.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Hydropower (Hydroelectric Energy):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**How it works:** Uses the kinetic energy of flowing or falling water (often from dams or run-of-river systems) to spin turbines, which then drive generators to produce electricity.</li>
+                            <li>**Turbogenerator used?:** Yes, water-driven turbines are directly connected to generators.</li>
+                            <li>**Replacement for Portable Fuels?:** No, it generates electricity for the grid.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Geothermal Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**How it works:** Taps into the heat from Earth's interior. In some plants, steam or hot water from underground reservoirs directly spins turbines. In others (binary cycle), hot geothermal fluid heats another fluid with a lower boiling point, which then vaporizes to spin a turbine.</li>
+                            <li>**Turbogenerator used?:** Yes, in most conventional geothermal power plants.</li>
+                            <li>**Replacement for Portable Fuels?:** No, it generates electricity for the grid.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Biomass Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**How it works:** Involves burning organic matter (e.g., wood, agricultural waste, dedicated energy crops) to produce heat, which can then generate steam to drive a turbogenerator for electricity. Can also be converted into liquid biofuels (ethanol, biodiesel) or biogas.</li>
+                            <li>**Turbogenerator used?:** Yes, for electricity generation (similar to fossil fuel thermal plants).</li>
+                            <li>**Replacement for Portable Fuels?:** Yes, **biofuels (like ethanol and biodiesel)** are direct replacements for gasoline and diesel, and research is ongoing for sustainable aviation fuels from biomass.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Ocean Energy (Tidal, Wave, Ocean Thermal):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**How it works:** Utilizes the energy from ocean tides, waves, or temperature differences in ocean water to drive turbines and generate electricity.</li>
+                            <li>**Turbogenerator used?:** Yes, in most designs.</li>
+                            <li>**Replacement for Portable Fuels?:** No, it generates electricity for the grid.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 bg-blue-50 p-4 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">What are the main advantages and disadvantages of each? Yes, even renewable energy has an environmental cost…</h3>
+                <p class="text-gray-700 font-semibold mb-2">Main Advantages and Disadvantages of Renewable Energy Sources:</p>
+                <ul class="list-disc list-inside ml-4 text-gray-700">
+                    <li class="mb-2">**Solar Energy (PV & CSP):**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Advantages:** Abundant, widely available (daylight), no greenhouse gas emissions during operation, decreasing costs, modular (PV).</li>
+                            <li>**Disadvantages:** Intermittent (only when sun shines), requires energy storage, land use for large-scale farms, manufacturing of panels can be energy-intensive and involve hazardous materials, disposal of old panels.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Wind Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Advantages:** Abundant in windy areas, no greenhouse gas emissions during operation, decreasing costs, relatively small land footprint per unit of energy (for the turbine itself).</li>
+                            <li>**Disadvantages:** Intermittent (only when wind blows), requires energy storage, visual impact, noise pollution, potential impact on birds/bats, manufacturing/disposal of large turbine components.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Hydropower:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Advantages:** Reliable, dispatchable (can be turned on/off quickly), no greenhouse gas emissions during operation, flood control, water supply benefits.</li>
+                            <li>**Disadvantages:** High initial construction costs, significant environmental and social impacts (habitat destruction, displacement of communities, altered river ecosystems, sediment trapping, potential methane emissions from reservoirs in some climates), limited suitable sites.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Geothermal Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Advantages:** Constant and reliable (baseload power), low greenhouse gas emissions during operation, small land footprint.</li>
+                            <li>**Disadvantages:** Geographically limited to areas with geothermal activity, potential for induced seismicity, release of some gases (e.g., hydrogen sulfide), high drilling costs, potential for groundwater contamination.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Biomass Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Advantages:** Can be a continuous source (baseload), uses organic waste, can produce liquid fuels.</li>
+                            <li>**Disadvantages:** Can produce air pollutants (particulate matter, $NO_x$) when burned, competition with food crops for land (for dedicated energy crops), potential for unsustainable harvesting (deforestation), can be carbon-intensive if not managed sustainably, land use impacts.</li>
+                        </ul>
+                    </li>
+                    <li class="mb-2">**Ocean Energy:**
+                        <ul class="list-disc list-inside ml-4">
+                            <li>**Advantages:** Predictable (tides), vast potential, low greenhouse gas emissions during operation.</li>
+                            <li>**Disadvantages:** High installation costs, limited suitable sites, potential impact on marine ecosystems, technological immaturity for widespread deployment.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="text-center mt-10 pt-4 border-t border-gray-200 text-gray-500 text-sm">
+            <p>&copy; 2025 My Study Guides. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
